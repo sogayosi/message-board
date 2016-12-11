@@ -16,10 +16,21 @@
 </div>
 
 <%= form_for(@message) do |f| %>
-  名前:
-  <%= f.text_field :name %>
+  <div class="form-group">
+    <label for="inputField">名前:</label>
+    <%= f.text_field :name %>
+  </div>
+  <div class="form-group">
+    <label for="inputTextArea">内容:</label>
+    <%= f.text_area :body %>
+  </div>  
+  <div class="form-group">
+    <div>
+      <%= f.submit class: "btn btn-sm btn-primary" %>
+    </div>
+  </div>  
 
-  内容:
-  <%= f.text_area :body %>
-  <%= f.submit class: "btn btn-sm btn-primary" %>
+  
+  
+  
 <% end %>
