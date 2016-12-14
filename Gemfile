@@ -3,14 +3,21 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7.1'
+<<<<<<< HEAD
 
 
 # Use sqlite3 as the database for Active Record
+=======
+# Use sqlite3 or postress as the database for Active Record
+>>>>>>> challenge1
 gem 'sqlite3', group: :development
 # 本番ではpostgressを使用する
 gem 'pg', group: :production
 
+<<<<<<< HEAD
 gem 'pry-byebug', group: :development
+=======
+>>>>>>> challenge1
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -51,4 +58,5 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
 
