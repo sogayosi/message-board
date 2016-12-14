@@ -4,9 +4,13 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7.1'
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 # Use sqlite3 as the database for Active Record
+=======
+# Use sqlite3 or postress as the database for Active Record
+>>>>>>> challenge1
 =======
 # Use sqlite3 or postress as the database for Active Record
 >>>>>>> challenge1
@@ -15,7 +19,10 @@ gem 'sqlite3', group: :development
 gem 'pg', group: :production
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 gem 'pry-byebug', group: :development
+=======
+>>>>>>> challenge1
 =======
 >>>>>>> challenge1
 
